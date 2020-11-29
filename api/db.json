@@ -1,0 +1,42 @@
+{
+  "streams": [
+    {
+      "title": "goat",
+      "description": "some freaking g aminmals",
+      "id": 1
+    },
+    {
+      "title": "cat",
+      "description": "we need more animals",
+      "id": 2
+    },
+    {
+      "title": "Patch UI",
+      "description": "Hello patch change",
+      "id": 3
+    },
+    {
+      "title": "New Stuff Hello",
+      "description": "Hello what's up!",
+      "id": 4
+    },
+    {
+      "title": "Immortal",
+      "description": "Hero God",
+      "userId": "118256810142446638994",
+      "id": 5
+    },
+    {
+      "title": "This is awesome.",
+      "description": "cool stuff",
+      "userId": "118256810142446638994",
+      "id": 6
+    },
+    {
+      "title": "New Look",
+      "description": "Hello new stuff. this is a bunch of stuff we are all homies here homie!!!",
+      "userId": "118256810142446638994",
+      "id": 7
+    }
+  ]
+}
