@@ -1,6 +1,6 @@
-import React from'react';
-import { Field, reduxForm } from 'redux-form';
- 
+import React from "react"
+import { Field, reduxForm } from "redux-form"
+
 class StreamForm extends React.Component {
   renderError({ error, touched }) {
     if (touched && error) {
@@ -8,7 +8,7 @@ class StreamForm extends React.Component {
         <div className="ui error message">
           <div className="header">{error}</div>
         </div>
-      );
+      )
     }
   }
 
@@ -19,39 +19,47 @@ class StreamForm extends React.Component {
         <input {...input} autoComplete="off" />
         {this.renderError(meta)}
       </div>
-    );
+    )
   }
 
   onSubmit = (formValues) => {
-    this.props.onSubmit(formValues);
+    this.props.onSubmit(formValues)
   }
 
-  render () {
+  render() {
     return (
-      <form onSubmit={this.props.handleSubmit(this.onSubmit)} className="ui form error">
-        <Field name="title" component={this.renderInput} label="Enter Title" />
-        <Field name="description" component={this.renderInput} label="Enter Description" />
-        <button value="submit" className="ui button primary">Submit</button>
+      <form
+        onSubmit={this.props.handleSubmit(this.onSubmit)}
+        className="ui form error"
+      >
+        <Field name="title" component={this.renderInput} label="Title" />
+        <Field
+          name="description"
+          component={this.renderInput}
+          label="Description"
+        />
+        <button value="submit" className="ui button primary">
+          Submit
+        </button>
       </form>
-    );
+    )
   }
 }
 
 const validate = (formValues) => {
-  const errors = {};
+  const errors = {}
   if (!formValues.title) {
-    errors.title = 'Write a title';
+    errors.title = "Write a title"
   }
 
   if (!formValues.description) {
-    errors.description = 'Write a description';
+    errors.description = "Write a description"
   }
 
-  return errors;
+  return errors
 }
 
 export default reduxForm({
-  form: 'streamForm',
-  validate
-})(StreamForm);
-
+  form: "streamForm",
+  validate,
+})(StreamForm)
