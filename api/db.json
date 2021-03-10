@@ -1,42 +1,19 @@
 {
   "streams": [
     {
-      "title": "goat",
-      "description": "some freaking g aminmals",
+      "title": "Playing Fornite",
+      "description": "Watch me win a game of Battle Royal",
       "id": 1
     },
     {
-      "title": "cat",
-      "description": "we need more animals",
+      "title": "Driving in GTA5",
+      "description": "I get the best cars on the market in this episode",
       "id": 2
     },
     {
-      "title": "Patch UI",
-      "description": "Hello patch change",
+      "title": "Rare Metals in VillageWorld",
+      "description": "Finding the rarest metals that I never knew existed!",
       "id": 3
-    },
-    {
-      "title": "New Stuff Hello",
-      "description": "Hello what's up!",
-      "id": 4
-    },
-    {
-      "title": "Immortal",
-      "description": "Hero God",
-      "userId": "118256810142446638994",
-      "id": 5
-    },
-    {
-      "title": "This is awesome.",
-      "description": "cool stuff",
-      "userId": "118256810142446638994",
-      "id": 6
-    },
-    {
-      "title": "New Look",
-      "description": "Hello new stuff. this is a bunch of stuff we are all homies here homie!!!",
-      "userId": "118256810142446638994",
-      "id": 7
     }
   ]
 }
